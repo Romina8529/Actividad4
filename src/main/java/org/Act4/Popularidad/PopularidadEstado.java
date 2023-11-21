@@ -1,4 +1,4 @@
-package org.Act4;
+package org.Act4.Popularidad;
 
 public interface PopularidadEstado {
 }

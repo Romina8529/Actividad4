@@ -1,5 +1,7 @@
-package org.Act4;
+package org.Act4.Popularidad;
 
-public class Tendencia implements PopularidadEstado{
+import org.Act4.Popularidad.PopularidadEstado;
+
+public class Tendencia implements PopularidadEstado {
 
 }

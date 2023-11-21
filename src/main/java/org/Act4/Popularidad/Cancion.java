@@ -1,9 +1,9 @@
-package org.Act4;
+package org.Act4.Popularidad;
 
 public class Cancion {
-    private String nombreArtista,nombreAlbum,tituloCancion;
+    private String nombreArtista, nombreAlbum, tituloCancion;
     private int anoAlbum;
-    private double reproducciones=0,like=0,dislikes=0;
+    private double reproducciones = 0, like = 0, dislikes = 0;
 
     public String getNombreArtista() {
         return nombreArtista;
@@ -33,7 +33,12 @@ public class Cancion {
         return dislikes;
     }
 
+    public Cancion() {
+        super();
+    }
+
+
+
+
 }
-
-
 

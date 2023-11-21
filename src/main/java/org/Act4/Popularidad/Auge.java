@@ -1,4 +1,4 @@
-package org.Act4;
+package org.Act4.Popularidad;
 
-public class Auge implements PopularidadEstado{
+public class Auge implements PopularidadEstado {
 }

@@ -1,2 +1,4 @@
-package org.Act4;public class EstadoIcono {
+package org.Act4.Icono;
+
+public class EstadoIcono {
 }
