@@ -3,7 +3,7 @@ package org.Act4.Popularidad;
 public class Cancion {
     private String nombreArtista, nombreAlbum, tituloCancion;
     private int anoAlbum;
-    private double reproducciones = 0, like = 0, dislikes = 0;
+    private double reproducciones = 1000, like = 0, dislikes = 5000;
 
     public String getNombreArtista() {
         return nombreArtista;
