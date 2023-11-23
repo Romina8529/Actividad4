@@ -28,4 +28,5 @@ public class Normal implements PopularidadEstado {
             System.out.println("Vamos por la meta ");
         }
     }
+
 }

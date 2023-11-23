@@ -1,5 +1,7 @@
 package org.Act4.Popularidad;
 
+import java.util.HashMap;
+
 public class Cancion {
     private String nombreArtista, nombreAlbum, tituloCancion;
     private int anoAlbum;
@@ -37,8 +39,33 @@ public class Cancion {
         super();
     }
 
+    public void setNombreArtista(String nombreArtista) {
+        this.nombreArtista = nombreArtista;
+    }
 
+    public void setNombreAlbum(String nombreAlbum) {
+        this.nombreAlbum = nombreAlbum;
+    }
 
+    public void setTituloCancion(String tituloCancion) {
+        this.tituloCancion = tituloCancion;
+    }
+
+    public void setAnoAlbum(int anoAlbum) {
+        this.anoAlbum = anoAlbum;
+    }
+
+    public void setReproducciones(double reproducciones) {
+        this.reproducciones = reproducciones;
+    }
+
+    public void setLike(double like) {
+        this.like = like;
+    }
+
+    public void setDislikes(double dislikes) {
+        this.dislikes = dislikes;
+    }
 
 }
 
